@@ -5,7 +5,19 @@
 
 Python Packages from Voken Project
 
-## shell
+
+## Install
+
+Available on PyPI:
+
+```console
+$ python -m pip install voken
+```
+
+
+## Modules
+
+### shell
 
 Embed and provide a interactive console...
 
@@ -18,7 +30,7 @@ shell.embed('welcome')
 ```
 
 
-## text_link
+### text_link
 
 - Extract all `TEXT_LINK(s)`
 - Get `hostname` from a `TEXT_LINK`
