@@ -20,7 +20,9 @@ shell.embed('welcome')
 
 ## text_link
 
-Extract all `TEXT_LINK(s)`
+- Extract all `TEXT_LINK(s)`
+- Get `hostname` from a `TEXT_LINK`
+- Get `telegram_username` from a `TEXT_LINK`
 
 ```python
 from voken import text_link as tl
